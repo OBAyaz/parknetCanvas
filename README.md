@@ -26,8 +26,8 @@ Hard-coded values = canvas: 600x400, CircleRadius = 50, RectangleDimensions: 100
 There are no dependencies in the script.
 
 <h3> Further Improvements: </h3>
-The script can be rewritten in a class based fashion that allows users pass constructor data (such as URL to fetch data, canvas dimension, shapes' dimensions, different tags to be considered, colour etc.)
+The script can be rewritten in a class based fashion that allows users pass constructor data (such as URL to fetch data, canvas dimension, shapes' dimensions, different tags to be considered, colour etc.).
 
-Every shape on canvas can show detailed information (i.e parameter key/values) as tooltip on hover. 
+Every shape on canvas could show detailed information (i.e parameter key/values) as tooltip on hover. 
 
-Canvas dimensions can be calculated depending on window size and could be responsive (i.e dynamically redraw on window size change event).
+Canvas dimensions could be calculated depending on window size and could be responsive (i.e dynamically redraw on window size change event).
