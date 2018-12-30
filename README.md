@@ -1,7 +1,7 @@
 This is a sample demo that fetches xml file, parses xml data and draws canvas depending on specific tags that xml file contains.
 
 Definition:
-Script fetches xml file from server and writes its content in text area. It also parses <job>, <trigger> and <action> tags and writes their name values under associated headings. ES5 syntax is used to simplfy cross-browser issues.
+Script fetches xml file from server and writes its content in text area. It also parses "job, "trigger" and "action" tags and writes their name values under associated headings. ES5 syntax is used to simplfy cross-browser issues.
 
 Script creates separate canvas element for each job (there is just one job in this task).
 
