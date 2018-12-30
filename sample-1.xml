@@ -1,0 +1,27 @@
+﻿<job id="j1" name="the job">
+	 
+	<triggers>
+		<trigger id="t1" type="UserAcion" name="the t1 button click"> </trigger>
+	</triggers>
+	
+	<actions>
+		<action id="a1" name="disable other job" type="AdminUpdate" async="false">
+			<parameter id="A" value="1" />			
+			<parameter id="B" value="2" />			
+		</action>
+		
+		<action id="a2" name="inform integration" type="SendHTTPRequest" async="true">
+			<parameter id="URL" value="https://api.com" />			
+			<parameter id="METHOD" value="POST" />			
+			<parameter id="BODY" value="![CDATA[
+									   {
+											'ID': '1',
+											'Name': 'Ali',
+											'Email': 'ali@gmail.com',
+											'Country': 'Türkiye'
+									   }
+									 ]]" />			
+		</action>
+		
+	</actions>
+</job>
